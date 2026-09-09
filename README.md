@@ -2,13 +2,9 @@
 
 # 🛒 FreshHut - Online Grocery Store
 
----
-
 *A full-stack grocery ordering platform focused on speed and simplicity pick your items, drop them in the cart, check out, and watch the order move all the way to your doorstep. Built for shoppers who want a clean, no-fuss experience from browsing to delivery.*
 
 <img src="https://img.shields.io/badge/PHP-8.2-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP"> <img src="https://img.shields.io/badge/MySQL-Aiven-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"> <img src="https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"> <img src="https://img.shields.io/badge/Docker-Apache-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"> <img src="https://img.shields.io/badge/Deployed%20on-Render-46E3B7?style=flat-square&logo=render&logoColor=white" alt="Render">
-
----
 
 ## 📋 Table of Contents
 
