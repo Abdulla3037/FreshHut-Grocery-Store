@@ -1,248 +1,92 @@
-<div align="center">
+<img src="screenshots/homepage.png" alt="FreshHut Homepage" width="100%">
 
-# 🛒 FreshHut
+# 🛒 FreshHut — Online Grocery Store
 
-### Online Grocery Store
+*A full-stack grocery ordering platform focused on speed and simplicity — pick your items, drop them in the cart, check out, and watch the order move all the way to your doorstep. Built for shoppers who want a clean, no-fuss experience from browsing to delivery.*
 
-A full-stack grocery shopping web application that brings product discovery, cart management, checkout, order tracking, and administration together in one platform.
-
-<p>
-  <a href="https://freshhut-grocery.onrender.com/">
-    <img src="https://img.shields.io/badge/%F0%9F%9A%80%20LIVE%20WEBSITE-Open%20FreshHut-2e7d32?style=for-the-badge" alt="Live Website">
-  </a>
-</p>
-
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
-<img src="https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
 <img src="https://img.shields.io/badge/PHP-8.2-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP">
 <img src="https://img.shields.io/badge/MySQL-Aiven-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL">
+<img src="https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
 <img src="https://img.shields.io/badge/Docker-Apache-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
-<img src="https://img.shields.io/badge/Hosted%20on-Render-46E3B7?style=flat-square&logo=render&logoColor=black" alt="Render">
+<img src="https://img.shields.io/badge/Deployed%20on-Render-46E3B7?style=flat-square&logo=render&logoColor=white" alt="Render">
 
-</div>
+## Table of Contents
 
----
+| Section | Section | Section |
+|---|---|---|
+| [Live Demo](#live-demo) | [Project Structure](#project-structure) | [Environment Variables](#environment-variables) |
+| [Features](#features) | [Database Schema](#database-schema) | [Authentication and Security](#authentication-and-security) |
+| [Screenshots](#screenshots) | [Application Flow](#application-flow) | [Demo Accounts](#demo-accounts) |
+| [Tech Stack](#tech-stack) | [Local Setup](#local-setup) | [Contributing](#-contributing) · [License](#-license) · [Contact](#-contact) |
 
-## 📖 About the Project
-
-**FreshHut** is a web-based online grocery store developed as a complete e-commerce style application. Customers can discover grocery products, search by keyword or category, add items to a cart, complete checkout, and follow their order status.
-
-The platform also includes a protected **Admin Panel** for managing products, orders, and users.
-
-The project was developed with **HTML, CSS, JavaScript, PHP, and MySQL**, with the frontend communicating with PHP backend APIs through JSON/Fetch requests.
-
----
-
-## 📑 Contents
-
-- [About the Project](#-about-the-project)
-- [Live Website](#-live-website)
-- [Core Features](#-core-features)
-- [Screenshots](#-screenshots)
-- [Technology Stack](#-technology-stack)
-- [How the System Works](#-how-the-system-works)
-- [Database](#-database)
-- [Project Layout](#-project-layout)
-- [Run Locally](#-run-locally)
-- [Security](#-security)
-- [Demo Accounts](#-demo-accounts)
-- [Project Team](#-project-team)
-- [License](#-license)
-
----
-
-<h2 id="-live-website" align="center">🌐 Live Website</h2>
-
-<div align="center">
-  <a href="https://freshhut-grocery.onrender.com/">
-    <img src="https://img.shields.io/badge/OPEN%20FRESHHUT-Visit%20Live%20Site-2e7d32?style=for-the-badge&logo=render&logoColor=white" alt="Open FreshHut">
-  </a>
-  <br><br>
-  <sub>Hosted on Render. On the free tier, the first request after inactivity may take some time while the service wakes up.</sub>
-</div>
-
----
-
-## ✨ Core Features
-
-### Customer Side
-
-- Account registration and login
-- Role-aware access for customers and administrators
-- Product browsing by category
-- Keyword search and featured products
-- Individual product detail pages
-- Shopping cart with quantity updates and removal
-- Stock validation during cart and checkout operations
-- Checkout with:
-  - Cash on Delivery
-  - bKash
-  - Nagad
-  - Rocket
-- Order confirmation and order history
-- Visual order-progress tracking
-- Profile editing for name, phone, and delivery address
-
-### Admin Side
-
-- Dashboard with store statistics and recent orders
-- Add, edit, and delete products
-- Upload product images
-- View and update customer orders
-- Manage registered users
-- Change user roles
-- Delete user accounts
-
----
-
-## 🖼️ Screenshots
+<h2 id="live-demo" align="center">Live Demo</h2>
 
 <div align="center">
 
-### 🏠 Storefront
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=2E7D32&center=true&vCenter=true&width=500&height=30&lines=%F0%9F%8C%90+Tap+below+to+open+FreshHut;It%27s+live+%E2%80%94+go+take+a+look!" alt="Typing SVG" />
 
-<img src="screenshots/homepage.png" alt="FreshHut Homepage" width="850">
+<br/>
 
-### 🔐 Authentication
-
-<table>
-<tr>
-<td align="center">
-<img src="screenshots/register.png" alt="Registration" width="400"><br>
-<b>Create Account</b>
-</td>
-<td align="center">
-<img src="screenshots/login.png" alt="Login" width="400"><br>
-<b>User Login</b>
-</td>
-</tr>
-</table>
-
-### 🛒 Shopping & Orders
-
-<table>
-<tr>
-<td align="center">
-<img src="screenshots/cart.png" alt="Shopping Cart" width="400"><br>
-<b>Shopping Cart</b>
-</td>
-<td align="center">
-<img src="screenshots/order-tracking.png" alt="Order Tracking" width="400"><br>
-<b>Order Tracking</b>
-</td>
-</tr>
-</table>
-
-### 🛠️ Administration
-
-<table>
-<tr>
-<td align="center">
-<img src="screenshots/admin-dashboard.png" alt="Admin Dashboard" width="400"><br>
-<b>Admin Dashboard</b>
-</td>
-<td align="center">
-<img src="screenshots/admin-manage-products.png" alt="Manage Products" width="400"><br>
-<b>Manage Products</b>
-</td>
-</tr>
-</table>
+<a href="https://freshhut-grocery.onrender.com/">
+  <img src="https://img.shields.io/badge/_LIVE_DEMO-Visit_FreshHut-2e7d32?style=for-the-badge&logo=render&logoColor=white&labelColor=1b5e20" alt="Live Demo">
+</a>
 
 </div>
 
----
+<p align="center">
+  <sub>⏳ <b>Heads up:</b> the app is hosted on Render's free plan, so it goes to sleep after inactivity. If nobody's visited recently, give the first load 30–50 seconds to wake the server back up.</sub>
+</p>
 
-## 🧰 Technology Stack
+## Features
 
-| Area | Technologies |
-|---|---|
-| Frontend | HTML5, CSS3, Vanilla JavaScript |
-| Backend | PHP 8.2 |
-| Database | MySQL |
-| API | Fetch API + JSON |
-| Server | Apache |
-| Container | Docker |
-| Database Hosting | Aiven |
-| Application Hosting | Render |
+**Customer Side**
+- 🔐 Sign up and log in through PHP session authentication
+- 🛍️ Browse the catalog with category filters, live search, and a highlighted-products carousel
+- 🛒 Cart with adjustable quantities and live stock checks
+- 💳 Choose from four ways to pay — Cash on Delivery, bKash, Nagad, or Rocket
+- 📦 Watch orders move through a live status timeline (`Pending → Confirmed → Processing → Out for Delivery → Delivered`)
+- 👤 Update your details and look back at past orders from your profile
 
-### What each layer does
+**Admin Side**
+- 📊 A dashboard summarizing revenue, order counts, product totals, and low-stock warnings
+- 🥕 Full control over the catalog — create, edit, remove, and attach images to products
+- 📋 Inspect any order's details and move it through its status stages
+- 👥 Manage the user base — review accounts, adjust roles, or remove them entirely
 
-**HTML/CSS** builds the pages and responsive interface.
+## Screenshots
 
-**JavaScript** handles search, category filtering, cart interactions, checkout requests, UI updates, authentication-side logic, and order tracking.
+<table>
+  <tr>
+    <td align="center"><b>Create Account</b><br><img src="screenshots/register.png" width="400"></td>
+    <td align="center"><b>Shopping Cart</b><br><img src="screenshots/cart.png" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Order Tracking</b><br><img src="screenshots/order-tracking.png" width="400"></td>
+    <td align="center"><b>Admin Dashboard</b><br><img src="screenshots/admin-dashboard.png" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2"><b>Admin — Manage Products</b><br><img src="screenshots/admin-manage-products.png" width="500"></td>
+  </tr>
+</table>
 
-**PHP** provides the server-side API, authentication, sessions, product operations, cart/order processing, profile operations, and admin authorization.
+## Tech Stack
 
-**MySQL** stores users, categories, products, cart items, orders, and order items.
+| Layer | Technology | Purpose |
+|---|---|---|
+| Frontend | HTML5 | Builds the page structure and markup |
+| Styling | CSS3 | Handles layout, cards, forms, and the admin theme |
+| Client-side | Vanilla JavaScript | Drives search, filters, cart actions, checkout, and tracking via Fetch |
+| Backend | PHP 8.2 | Runs auth, business rules, and the REST-style endpoints |
+| Database | MySQL | Holds users, categories, products, carts, and orders |
+| API Communication | Fetch API / JSON | Links the browser to the PHP backend |
+| Web Server | Apache | Hosts the PHP app (`php:8.2-apache` image) |
+| Containerization | Docker | Bundles the app for consistent deployment |
+| Hosting | Render | Runs the deployed container |
+| Database Service | Aiven (MySQL) | Cloud-hosted database reachable over SSL |
 
----
+## Project Structure
 
-## 🔄 How the System Works
-
-### Customer Journey
-
-```text
-Register / Login
-      ↓
-Browse Products
-      ↓
-Search or Filter
-      ↓
-Product Details
-      ↓
-Add to Cart
-      ↓
-Checkout
-      ├── Delivery Address
-      └── Payment Method
-      ↓
-Place Order
-      ↓
-Pending
-      ↓
-Confirmed
-      ↓
-Processing
-      ↓
-Out for Delivery
-      ↓
-Delivered
 ```
-
-### Admin Journey
-
-```text
-Admin Login
-    ↓
-Admin Dashboard
-    ├── Product Management
-    ├── Order Management
-    └── User Management
-```
-
----
-
-## 🗄️ Database
-
-FreshHut uses a relational MySQL database.
-
-| Table | Main responsibility |
-|---|---|
-| `users` | Accounts, roles, profile information, and authentication data |
-| `categories` | Grocery category definitions |
-| `products` | Product information, pricing, stock, description, and images |
-| `cart` | Items currently selected by customers |
-| `orders` | Order address, payment method, total, and status |
-| `order_items` | Product-level details belonging to each order |
-
-Relationships between the cart and order tables are maintained using foreign keys.
-
----
-
-## 📁 Project Layout
-
-```text
 Grocery-Store1/
 ├── admin/
 │   ├── index.html
@@ -250,6 +94,7 @@ Grocery-Store1/
 │   ├── orders.html
 │   ├── users.html
 │   └── admin-style.css
+│
 ├── api/
 │   ├── auth_check.php
 │   ├── cart.php
@@ -260,14 +105,29 @@ Grocery-Store1/
 │   ├── register.php
 │   ├── user.php
 │   └── users.php
+│
 ├── user/
+│
 ├── config/
 │   ├── db.php
 │   ├── ca.pem
 │   └── grocery_store.sql
+│
 ├── css/
+│   ├── style.css
+│   └── product-detail.css
+│
 ├── js/
+│   ├── admin.js
+│   ├── auth.js
+│   ├── cart.js
+│   ├── checkout.js
+│   ├── main.js
+│   └── product-img.js
+│
 ├── uploads/
+│   └── products/
+│
 ├── about.html
 ├── cart.html
 ├── checkout.html
@@ -282,91 +142,153 @@ Grocery-Store1/
 └── entrypoint.sh
 ```
 
----
+## Database Schema
 
-## 💻 Run Locally
+Tables are built and populated the first time the app runs (handled in `config/db.php`), so there's no SQL file to import by hand.
 
-### Requirements
+| Table | Purpose |
+|---|---|
+| `users` | Holds account details, contact info, roles, and login credentials for customers and admins |
+| `categories` | Lists the 8 grocery categories — Vegetables, Fruits, Dairy, Bakery, Beverages, Snacks, Meats, Health & Organic |
+| `products` | Stores product name, category, price, stock count, description, and image (24 items seeded) |
+| `cart` | Tracks what each customer currently has in their basket |
+| `orders` | Captures order-level info — delivery address, payment choice, total, and current status |
+| `order_items` | Records the specific products, quantities, and prices tied to each order |
 
-- XAMPP with Apache and MySQL
-- Git
-- A modern web browser
+Relationships between these tables are enforced with foreign keys.
 
-### Setup
+## Application Flow
 
-1. Clone the repository into the XAMPP `htdocs` directory.
+### Customer Flow
 
-```bash
-cd C:/xampp/htdocs
-git clone <your-repository-url>
-cd Grocery-Store1
+```
+Register / Login
+       │
+       ▼
+Browse Products
+       │
+       ├── Search
+       └── Filter by Category
+       │
+       ▼
+Add to Cart
+       │
+       ▼
+Checkout
+       │
+       ├── Delivery Address
+       └── Payment Method
+       │
+       ▼
+Place Order
+       │
+       ▼
+Pending
+  ↓
+Confirmed
+  ↓
+Processing
+  ↓
+Out for Delivery
+  ↓
+Delivered
 ```
 
-2. Start **Apache** and **MySQL** from XAMPP.
+### Admin Flow
 
-3. Create a local database through phpMyAdmin, for example:
-
-```text
-grocery_store
+```
+Admin Login
+    │
+    ▼
+Admin Dashboard
+    ├── Manage Products
+    ├── Manage Orders
+    └── Manage Users
 ```
 
-4. Configure the local database settings in `config/db.php`.
+## Local Setup
 
-Typical XAMPP values are:
+### Prerequisites
+- [XAMPP](https://www.apachefriends.org/) (bundles PHP, MySQL, and Apache together)
 
-```php
-DB_HOST = "localhost";
-DB_USER = "root";
-DB_PASS = "";
-DB_NAME = "grocery_store";
-DB_PORT = 3306;
-```
+### Running the App with XAMPP
 
-5. Open the application in your browser through your local Apache URL.
+1. **Install XAMPP**, then launch the Control Panel and start the **Apache** and **MySQL** services.
 
----
+2. **Pull the repo into your `htdocs` directory**
+   ```bash
+   cd C:/xampp/htdocs        # or /Applications/XAMPP/htdocs on Mac
+   git clone <this-repo-url>
+   cd Grocery-Store1
+   ```
 
-## 🔐 Security
+3. **Set up a database**
+   - Head to `http://localhost/phpmyadmin`
+   - Create a new database — `grocery_store` works fine
 
-The project includes several application-level protections:
+4. **Point the app at your database**
+   Edit `config/db.php` and set the fallback values to match your local environment (typical XAMPP defaults):
+   ```php
+   DB_HOST = "localhost"
+   DB_USER = "root"
+   DB_PASS = ""              // XAMPP ships with no MySQL password by default
+   DB_NAME = "grocery_store"
+   DB_PORT = 3306
+   ```
 
-- Password hashing for stored passwords
-- PHP session-based authentication
-- Role-based authorization for admin functions
-- Session validation for protected pages
-- Users restricted to viewing their own orders
-- Stock checks before completing orders
-- Prepared database statements
-- Database transactions for checkout and stock updates
-- SSL support for the hosted MySQL connection
+5. **Open the app in your browser**
+   ```
+   http://localhost/Grocery-Store1/
+   ```
+   On the first request, the app automatically creates its tables and seeds sample data — an admin account, a demo customer, categories, and products.
 
----
+## Environment Variables
 
-## 👤 Demo Accounts
+| Variable | Description |
+|---|---|
+| `DB_HOST` | MySQL host |
+| `DB_USER` | MySQL username |
+| `DB_PASS` | MySQL password |
+| `DB_NAME` | Database name |
+| `DB_PORT` | MySQL port |
+| `PORT` | Port Apache listens on (set automatically by Render) |
 
-The current seeded demo provides separate customer and administrator accounts.
+## Authentication and Security
+
+* Passwords are never stored in plain text — they're hashed.
+* Login state is maintained through PHP sessions.
+* Session cookies are locked down with secure attributes.
+* Order data is scoped so customers can only see their own history.
+* Every admin-only action is verified server-side before it runs.
+* Stock levels are checked during both cart updates and checkout.
+* All database queries go through prepared statements.
+* Checkout wraps stock, order, and cart changes in a single transaction so nothing gets out of sync.
+* DB credentials are meant to be passed in as environment variables, not hardcoded.
+* SSL connections to MySQL are supported using the bundled CA certificate.
+
+## Demo Accounts
+
+Two accounts are already seeded on the live demo so you can jump straight into either role:
 
 | Role | Email | Password |
 |---|---|---|
 | Admin | `admin@freshhut.com` | `FreshHut_Admin_2026!` |
 | Customer | `customer@test.com` | `customer123` |
 
-> These credentials are intended for testing the project. Avoid using them as real production credentials.
-
 ---
 
 ## 🤝 Contributing
 
-Have ideas or improvements? Feel free to fork the repository, apply your changes, and submit a pull request.
+Got an idea to make this better? Fork the repo, make your changes, and open a pull request.
 
 ---
 
-## 🔐 License
+## 🔒 License
 
-This project is licensed under the [MIT License](./LICENSE).
+Released under the [MIT License](./LICENSE).
 
 ---
 
-## ✉️ Contact
+## 📧 Contact
 
-For any questions or concerns, feel free to reach out by email at abdullahasan220618@gmail.com
+Questions or feedback are welcome — reach out at imam220826@gmail.com
