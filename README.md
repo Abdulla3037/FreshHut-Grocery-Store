@@ -11,9 +11,9 @@
 | # | Section |
 |---|---------|
 | 1 | [Live Demo](#live-demo) |
-| 2 | [Features](#features) |
+| 2 | [Functionality Overview](#functionality-overview) |
 | 3 | [Screenshots](#screenshots) |
-| 4 | [Tech Stack](#tech-stack) |
+| 4 | [Technologies Used](#technologies-used) |
 | 5 | [Project Structure](#project-structure) |
 | 6 | [Database Schema](#database-schema) |
 | 7 | [Application Flow](#application-flow) |
@@ -52,11 +52,11 @@
     <td align="center"><b>Admin Dashboard</b><br><img src="screenshots/admin-dashboard.png" width="400"></td>
   </tr>
   <tr>
-    <td align="center" colspan="2"><b>Admin — Manage Products</b><br><img src="screenshots/admin-manage-products.png" width="500"></td>
+    <td align="center" colspan="2"><b>Admin: Manage Products</b><br><img src="screenshots/admin-manage-products.png" width="500"></td>
   </tr>
 </table>
 
-## Tech Stack
+## Technologies Used
 
 | Layer | Technology | Purpose |
 |---|---|---|
