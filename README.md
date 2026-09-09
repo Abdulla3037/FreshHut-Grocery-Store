@@ -1,37 +1,36 @@
 <img src="screenshots/homepage.png" alt="FreshHut Homepage" width="100%">
+----
 
 # 🛒 FreshHut - Online Grocery Store
+
+---
 
 *A full-stack grocery ordering platform focused on speed and simplicity pick your items, drop them in the cart, check out, and watch the order move all the way to your doorstep. Built for shoppers who want a clean, no-fuss experience from browsing to delivery.*
 
 <img src="https://img.shields.io/badge/PHP-8.2-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP"> <img src="https://img.shields.io/badge/MySQL-Aiven-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"> <img src="https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"> <img src="https://img.shields.io/badge/Docker-Apache-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"> <img src="https://img.shields.io/badge/Deployed%20on-Render-46E3B7?style=flat-square&logo=render&logoColor=white" alt="Render">
 
-## Table of Contents
+---
 
-| Section | Section | Section |
-|---|---|---|
-| [Live Demo](#live-demo) | [Project Structure](#project-structure) | [Environment Variables](#environment-variables) |
-| [Features](#features) | [Database Schema](#database-schema) | [Authentication and Security](#authentication-and-security) |
-| [Screenshots](#screenshots) | [Application Flow](#application-flow) | [Demo Accounts](#demo-accounts) |
-| [Tech Stack](#tech-stack) | [Local Setup](#local-setup) | [Contributing](#-contributing) · [License](#-license) · [Contact](#-contact) |
+## 📋 Table of Contents
 
-<h2 id="live-demo" align="center">Live Demo</h2>
+| # | Section |
+|---|---------|
+| 1 | [Live Demo](#live-demo) |
+| 2 | [Features](#features) |
+| 3 | [Screenshots](#screenshots) |
+| 4 | [Tech Stack](#tech-stack) |
+| 5 | [Project Structure](#project-structure) |
+| 6 | [Database Schema](#database-schema) |
+| 7 | [Application Flow](#application-flow) |
+| 8 | [Local Setup](#local-setup) |
+| 9 | [Environment Variables](#environment-variables) |
+| 10 | [Authentication and Security](#authentication-and-security) |
+| 11 | [Demo Accounts](#demo-accounts) |
+| 12 | [Contributing](#-contributing) |
+| 13 | [License](#-license) |
+| 14 | [Contact](#-contact) |
 
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=2E7D32&center=true&vCenter=true&width=500&height=30&lines=%F0%9F%8C%90+Tap+below+to+open+FreshHut;It%27s+live+%E2%80%94+go+take+a+look!" alt="Typing SVG" />
-
-<br/>
-
-<a href="https://freshhut-grocery.onrender.com/">
-  <img src="https://img.shields.io/badge/_LIVE_DEMO-Visit_FreshHut-2e7d32?style=for-the-badge&logo=render&logoColor=white&labelColor=1b5e20" alt="Live Demo">
-</a>
-
-</div>
-
-<p align="center">
-  <sub>⏳ <b>Heads up:</b> the app is hosted on Render's free plan, so it goes to sleep after inactivity. If nobody's visited recently, give the first load 30–50 seconds to wake the server back up.</sub>
-</p>
+---
 
 ## Features
 
