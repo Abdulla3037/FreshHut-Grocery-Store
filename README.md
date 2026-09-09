@@ -23,9 +23,6 @@
 | 11 | [Demo Accounts](#demo-accounts) |
 | 12 | [Contributing](#-contributing) |
 | 13 | [License](#-license) |
-| 14 | [Contact](#-contact) |
-
----
 
 ## Features
 
