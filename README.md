@@ -4,8 +4,6 @@
 
 *A full-stack grocery ordering platform focused on speed and simplicity pick your items, drop them in the cart, check out, and watch the order move all the way to your doorstep. Built for shoppers who want a clean, no-fuss experience from browsing to delivery.*
 
-<img src="https://img.shields.io/badge/PHP-8.2-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP"> <img src="https://img.shields.io/badge/MySQL-Aiven-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"> <img src="https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"> <img src="https://img.shields.io/badge/Docker-Apache-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"> <img src="https://img.shields.io/badge/Deployed%20on-Render-46E3B7?style=flat-square&logo=render&logoColor=white" alt="Render">
-
 ## 📋 Table of Contents
 
 | # | Section |
@@ -70,7 +68,7 @@
 |---|---|---|
 | Frontend | HTML5 | Builds the page structure and markup |
 | Styling | CSS3 | Handles layout, cards, forms, and the admin theme |
-| Client-side | Vanilla JavaScript | Drives search, filters, cart actions, checkout, and tracking via Fetch |
+| Client-side | JavaScript | Drives search, filters, cart actions, checkout, and tracking via Fetch |
 | Backend | PHP 8.2 | Runs auth, business rules, and the REST-style endpoints |
 | Database | MySQL | Holds users, categories, products, carts, and orders |
 | API Communication | Fetch API / JSON | Links the browser to the PHP backend |
