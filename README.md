@@ -16,7 +16,7 @@
 | 4 | [Technologies Used](#technologies-used) |
 | 5 | [Project Structure](#project-structure) |
 | 6 | [Database Schema](#database-schema) |
-| 7 | [Application Flow](#application-flow) |
+| 7 | [System Workflow](#system-workflow) |
 | 8 | [Local Setup](#local-setup) |
 | 9 | [Environment Variables](#environment-variables) |
 | 10 | [Authentication and Security](#authentication-and-security) |
@@ -136,15 +136,15 @@ Tables are built and populated the first time the app runs (handled in `config/d
 | Table | Purpose |
 |---|---|
 | `users` | Holds account details, contact info, roles, and login credentials for customers and admins |
-| `categories` | Lists the 8 grocery categories — Vegetables, Fruits, Dairy, Bakery, Beverages, Snacks, Meats, Health & Organic |
+| `categories` | Lists the 8 grocery categories - Vegetables, Fruits, Dairy, Bakery, Beverages, Snacks, Meats, Health & Organic |
 | `products` | Stores product name, category, price, stock count, description, and image (24 items seeded) |
 | `cart` | Tracks what each customer currently has in their basket |
-| `orders` | Captures order-level info — delivery address, payment choice, total, and current status |
+| `orders` | Captures order-level info - delivery address, payment choice, total, and current status |
 | `order_items` | Records the specific products, quantities, and prices tied to each order |
 
 Relationships between these tables are enforced with foreign keys.
 
-## Application Flow
+## System Workflow
 
 ### Customer Flow
 
@@ -227,7 +227,7 @@ Admin Dashboard
    ```
    http://localhost/Grocery-Store1/
    ```
-   On the first request, the app automatically creates its tables and seeds sample data — an admin account, a demo customer, categories, and products.
+   On the first request, the app automatically creates its tables and seeds sample data: an admin account, a demo customer, categories, and products.
 
 ## Environment Variables
 
@@ -242,7 +242,7 @@ Admin Dashboard
 
 ## Authentication and Security
 
-* Passwords are never stored in plain text — they're hashed.
+* Passwords are never stored in plain text, they're hashed.
 * Login state is maintained through PHP sessions.
 * Session cookies are locked down with secure attributes.
 * Order data is scoped so customers can only see their own history.
@@ -266,16 +266,16 @@ Two accounts are already seeded on the live demo so you can jump straight into e
 
 ## 🤝 Contributing
 
-Got an idea to make this better? Fork the repo, make your changes, and open a pull request.
+Have ideas or improvements? Feel free to fork the repository, apply your changes, and submit a pull request.
 
 ---
 
-## 🔒 License
+## 🔐 License
 
-Released under the [MIT License](./LICENSE).
+This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
-## 📧 Contact
+## ✉️ Contact
 
-Questions or feedback are welcome — reach out at imam220826@gmail.com
+For any questions or concerns, feel free to reach out by email at abdullahasan220618@gmail.com
