@@ -1,5 +1,5 @@
 <img src="screenshots/homepage.png" alt="FreshHut Homepage" width="100%">
-----
+---
 
 # 🛒 FreshHut - Online Grocery Store
 
