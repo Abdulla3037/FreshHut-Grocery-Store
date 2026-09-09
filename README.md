@@ -30,7 +30,7 @@
 
 [![Visit FreshHut](https://img.shields.io/badge/🌐_Visit_FreshHut-Live_Demo-2e7d32?style=for-the-badge&logo=render&logoColor=white&labelColor=14532d)](https://freshhut-grocery.onrender.com/)
 
-> ⏳ **Note:** Hosted on Render's free tier — if it's been idle, the server takes 30–50 seconds to wake up on the first load.
+> ⏳ **Note:** Hosted on Render's free tier, if it's been idle, the server takes 30–50 seconds to wake up on the first load.
 
 ## Functionality Overview
 
