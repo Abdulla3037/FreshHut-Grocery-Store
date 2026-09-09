@@ -24,21 +24,21 @@
 | 12 | [Contributing](#-contributing) |
 | 13 | [License](#-license) |
 
-## Features
+## Functionality Overview
 
 **Customer Side**
-- 🔐 Sign up and log in through PHP session authentication
+- 🧾 Sign up and log in through PHP session authentication
 - 🛍️ Browse the catalog with category filters, live search, and a highlighted-products carousel
 - 🛒 Cart with adjustable quantities and live stock checks
-- 💳 Choose from four ways to pay — Cash on Delivery, bKash, Nagad, or Rocket
-- 📦 Watch orders move through a live status timeline (`Pending → Confirmed → Processing → Out for Delivery → Delivered`)
-- 👤 Update your details and look back at past orders from your profile
+- 💰 Choose from four ways to pay: Cash on Delivery, bKash, Nagad, or Rocket
+- 🚚 Watch orders move through a live status timeline (`Pending → Confirmed → Processing → Out for Delivery → Delivered`)
+- ⚙️ Update your details and look back at past orders from your profile
 
 **Admin Side**
-- 📊 A dashboard summarizing revenue, order counts, product totals, and low-stock warnings
-- 🥕 Full control over the catalog — create, edit, remove, and attach images to products
+- 📈 A dashboard summarizing revenue, order counts, product totals, and low-stock warnings
+- 🍎 Full control over the catalog — create, edit, remove, and attach images to products
 - 📋 Inspect any order's details and move it through its status stages
-- 👥 Manage the user base — review accounts, adjust roles, or remove them entirely
+- 👥 Manage the user base: review accounts, adjust roles, or remove them entirely
 
 ## Screenshots
 
