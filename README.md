@@ -36,7 +36,7 @@
 
 **Admin Side**
 - 📈 A dashboard summarizing revenue, order counts, product totals, and low-stock warnings
-- 🍎 Full control over the catalog — create, edit, remove, and attach images to products
+- 🍎 Full control over the catalog: create, edit, remove, and attach images to products
 - 📋 Inspect any order's details and move it through its status stages
 - 👥 Manage the user base: review accounts, adjust roles, or remove them entirely
 
