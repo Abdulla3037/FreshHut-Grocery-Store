@@ -26,15 +26,11 @@
 
 ## Live Demo
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=2E7D32&vCenter=true&width=500&height=30&lines=%F0%9F%8C%90+Tap+below+to+open+FreshHut;It%27s+live+%E2%80%94+go+take+a+look!" alt="Typing SVG" />
+**FreshHut is live! Click through and explore it yourself.**
 
-<br/>
+[![Visit FreshHut](https://img.shields.io/badge/🌐_Visit_FreshHut-Live_Demo-2e7d32?style=for-the-badge&logo=render&logoColor=white&labelColor=14532d)](https://freshhut-grocery.onrender.com/)
 
-<a href="https://freshhut-grocery.onrender.com/">
-  <img src="https://img.shields.io/badge/_LIVE_DEMO-Visit_FreshHut-2e7d32?style=for-the-badge&logo=render&logoColor=white&labelColor=1b5e20" alt="Live Demo">
-</a>
-
-<sub>⏳ <b>Heads up:</b> the app is hosted on Render's free plan, so it goes to sleep after inactivity. If nobody's visited recently, give the first load 30–50 seconds to wake the server back up.</sub>
+> ⏳ **Note:** Hosted on Render's free tier — if it's been idle, the server takes 30–50 seconds to wake up on the first load.
 
 ## Functionality Overview
 
