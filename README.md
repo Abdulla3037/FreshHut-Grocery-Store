@@ -355,31 +355,18 @@ The current seeded demo provides separate customer and administrator accounts.
 
 ---
 
-## 👥 Project Team
+## 🤝 Contributing
 
-| Name | Student ID |
-|---|---|
-| Md. Imam Hasan | 2023-1-60-030 |
-| Md. Abdulla Hasan | 2023-1-60-034 |
-| Tabassum Talukder | 2023-1-60-039 |
-
-**Department:** Computer Science & Engineering  
-**University:** East West University
+Have ideas or improvements? Feel free to fork the repository, apply your changes, and submit a pull request.
 
 ---
 
-## 📄 License
+## 🔐 License
 
-This project is licensed under the **MIT License**.
+This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
-<div align="center">
+## ✉️ Contact
 
-### FreshHut — Grocery shopping made simple. 🥬🛒
-
-<a href="https://freshhut-grocery.onrender.com/">
-  <img src="https://img.shields.io/badge/%E2%86%92%20VISIT%20FRESHHUT-Live%20Website-2e7d32?style=for-the-badge" alt="Visit FreshHut">
-</a>
-
-</div>
+For any questions or concerns, feel free to reach out by email at abdullahasan220618@gmail.com
